@@ -114,3 +114,30 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'sp
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:483) ~[spring-beans-6.0.11.jar:6.0.11]
 	... 27 common frames omitted
 
+2023-08-28T10:28:33.659+05:30  INFO 11604 --- [main] com.example.clint.ClientApplication      : Starting ClientApplication using Java 20.0.2 with PID 11604 (E:\Microservice config demo\client\target\classes started by Administrator in E:\Microservice config demo)
+2023-08-28T10:28:33.664+05:30  INFO 11604 --- [main] com.example.clint.ClientApplication      : The following 1 profile is active: "default"
+2023-08-28T10:28:33.737+05:30  INFO 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:28:33.737+05:30  INFO 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:28:33.737+05:30  WARN 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@76b74e9c uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:28:33.738+05:30  INFO 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:28:33.738+05:30  INFO 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:28:33.738+05:30  WARN 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@41beb473 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:28:33.738+05:30  INFO 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:28:33.738+05:30  INFO 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:28:33.739+05:30  WARN 11604 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@560513ce uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:28:34.989+05:30  INFO 11604 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9f6e4a26-1282-396f-af33-9120b2ae75a0
+2023-08-28T10:28:35.309+05:30  INFO 11604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-28T10:28:35.318+05:30  INFO 11604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-28T10:28:35.319+05:30  INFO 11604 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-28T10:28:35.436+05:30  INFO 11604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-28T10:28:35.437+05:30  INFO 11604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1695 ms
+2023-08-28T10:28:36.378+05:30  INFO 11604 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-08-28T10:28:36.503+05:30  INFO 11604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-28T10:28:36.626+05:30  INFO 11604 --- [main] com.example.clint.ClientApplication      : Started ClientApplication in 4.443 seconds (process running for 5.607)
+2023-08-28T10:28:37.030+05:30  INFO 11604 --- [RMI TCP Connection(3)-192.168.29.240] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-28T10:28:37.030+05:30  INFO 11604 --- [RMI TCP Connection(3)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-28T10:28:37.033+05:30  INFO 11604 --- [RMI TCP Connection(3)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-28T10:31:57.861+05:30  INFO 11604 --- [http-nio-8080-exec-3] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:31:58.856+05:30  INFO 11604 --- [http-nio-8080-exec-3] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=microservice-one, profiles=[default], label=master, version=99d12d2da192679a31fd3e40fd853dd66e672cd7, state=null
+2023-08-28T10:32:01.775+05:30  INFO 11604 --- [http-nio-8080-exec-4] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:32:02.612+05:30  INFO 11604 --- [http-nio-8080-exec-4] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=microservice-one, profiles=[default], label=master, version=99d12d2da192679a31fd3e40fd853dd66e672cd7, state=null
