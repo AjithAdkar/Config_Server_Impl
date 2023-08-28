@@ -18,7 +18,7 @@
 2023-08-28T10:23:22.224+05:30  INFO 13388 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
 2023-08-28T10:23:22.323+05:30  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-08-28T10:23:22.434+05:30  INFO 13388 --- [main] com.example.clint.ClientApplication      : Started ClientApplication in 4.645 seconds (process running for 5.864)
-2023-08-28T10:23:23.078+05:30  INFO 13388 --- [RMI TCP Connection(2)-192.168.29.240] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-28T10:23:23.078+05:30  INFO 13388 --- [RMI TCP Connection(2)-192.168.29.240] o.a.c.c.   C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-28T10:23:23.078+05:30  INFO 13388 --- [RMI TCP Connection(2)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-08-28T10:23:23.081+05:30  INFO 13388 --- [RMI TCP Connection(2)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
 2023-08-28T10:24:37.875+05:30  INFO 8148 --- [main] com.example.clint.ClientApplication      : Starting ClientApplication using Java 20.0.2 with PID 8148 (E:\Microservice config demo\client\target\classes started by Administrator in E:\Microservice config demo)
@@ -141,3 +141,26 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'sp
 2023-08-28T10:31:58.856+05:30  INFO 11604 --- [http-nio-8080-exec-3] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=microservice-one, profiles=[default], label=master, version=99d12d2da192679a31fd3e40fd853dd66e672cd7, state=null
 2023-08-28T10:32:01.775+05:30  INFO 11604 --- [http-nio-8080-exec-4] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
 2023-08-28T10:32:02.612+05:30  INFO 11604 --- [http-nio-8080-exec-4] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=microservice-one, profiles=[default], label=master, version=99d12d2da192679a31fd3e40fd853dd66e672cd7, state=null
+2023-08-28T10:35:40.622+05:30  INFO 10792 --- [main] com.example.clint.ClientApplication      : Starting ClientApplication using Java 20.0.2 with PID 10792 (E:\Microservice config demo\client\target\classes started by Administrator in E:\Microservice config demo)
+2023-08-28T10:35:40.624+05:30  INFO 10792 --- [main] com.example.clint.ClientApplication      : The following 1 profile is active: "default"
+2023-08-28T10:35:40.675+05:30  INFO 10792 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:35:40.675+05:30  INFO 10792 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=microservice-one, profiles=[default], label=master, version=99d12d2da192679a31fd3e40fd853dd66e672cd7, state=null
+2023-08-28T10:35:41.816+05:30  INFO 10792 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9f6e4a26-1282-396f-af33-9120b2ae75a0
+2023-08-28T10:35:42.211+05:30  INFO 10792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-28T10:35:42.223+05:30  INFO 10792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-28T10:35:42.223+05:30  INFO 10792 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-28T10:35:42.340+05:30  INFO 10792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-28T10:35:42.341+05:30  INFO 10792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1664 ms
+2023-08-28T10:35:43.257+05:30  INFO 10792 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-08-28T10:35:43.371+05:30  INFO 10792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-28T10:35:43.510+05:30  INFO 10792 --- [main] com.example.clint.ClientApplication      : Started ClientApplication in 5.157 seconds (process running for 6.3)
+2023-08-28T10:35:44.254+05:30  INFO 10792 --- [RMI TCP Connection(2)-192.168.29.240] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-28T10:35:44.255+05:30  INFO 10792 --- [RMI TCP Connection(2)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-28T10:35:44.258+05:30  INFO 10792 --- [RMI TCP Connection(2)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-28T10:36:08.590+05:30  INFO 10792 --- [http-nio-8080-exec-2] MicroServiceController                   : propertiesdev
+2023-08-28T10:37:20.352+05:30  INFO 10792 --- [http-nio-8080-exec-5] MicroServiceController                   : propertiesdev
+2023-08-28T10:37:23.984+05:30  INFO 10792 --- [http-nio-8080-exec-6] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:37:24.871+05:30  INFO 10792 --- [http-nio-8080-exec-6] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=microservice-one, profiles=[default], label=master, version=f39217c3e553f9d3c2ac60d908a77d4c2df5b4d2, state=null
+2023-08-28T10:37:27.144+05:30  INFO 10792 --- [http-nio-8080-exec-7] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:37:27.901+05:30  INFO 10792 --- [http-nio-8080-exec-7] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=microservice-one, profiles=[default], label=master, version=f39217c3e553f9d3c2ac60d908a77d4c2df5b4d2, state=null
+2023-08-28T10:37:45.945+05:30  INFO 10792 --- [http-nio-8080-exec-8] MicroServiceController                   : propertiesprod

@@ -9,25 +9,16 @@ import org.springframework.context.annotation.Configuration;
 @RefreshScope
 
 public class PropertiesConfiguration {
-    @Value("${spring.test.value}")
-    private String value;
-    @Value("${spring.profiles.active}")
-    private String profiles;
+    @Value("${spring.test.profile}")
+    private String profile;
 
-    public String getProfiles() {
-        return profiles;
+
+    public String getprofile() {
+        return profile;
     }
 
-    public void setProfiles(String profiles) {
-        this.profiles = profiles;
-    }
-
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
+    public void setprofile(String value) {
+        this.profile = value;
     }
 
 }

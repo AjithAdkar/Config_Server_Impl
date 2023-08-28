@@ -15,7 +15,7 @@ public class MicroServiceController {
     @GetMapping("/endpoint")
     public String retrieveLimits(){
 
- log.info("properties :" + configuration.getProfiles());
-        return configuration.getValue();
+ log.info("properties :" + configuration.getprofile());
+        return configuration.getprofile();
     }
 }
