@@ -1,0 +1,116 @@
+2023-08-28T10:23:19.243+05:30  INFO 13388 --- [main] com.example.clint.ClientApplication      : Starting ClientApplication using Java 20.0.2 with PID 13388 (E:\Microservice config demo\client\target\classes started by Administrator in E:\Microservice config demo)
+2023-08-28T10:23:19.246+05:30  INFO 13388 --- [main] com.example.clint.ClientApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-08-28T10:23:19.322+05:30  INFO 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:23:19.322+05:30  INFO 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:23:19.323+05:30  WARN 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@4c4d362a uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:23:19.324+05:30  INFO 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:23:19.324+05:30  INFO 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:23:19.324+05:30  WARN 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@3174cb09 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:23:19.324+05:30  INFO 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:23:19.324+05:30  INFO 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:23:19.325+05:30  WARN 13388 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@4d411036 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:23:20.575+05:30  INFO 13388 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9f6e4a26-1282-396f-af33-9120b2ae75a0
+2023-08-28T10:23:20.914+05:30  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-28T10:23:20.925+05:30  INFO 13388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-28T10:23:20.925+05:30  INFO 13388 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-28T10:23:21.039+05:30  INFO 13388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-28T10:23:21.040+05:30  INFO 13388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1711 ms
+2023-08-28T10:23:22.224+05:30  INFO 13388 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-08-28T10:23:22.323+05:30  INFO 13388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-28T10:23:22.434+05:30  INFO 13388 --- [main] com.example.clint.ClientApplication      : Started ClientApplication in 4.645 seconds (process running for 5.864)
+2023-08-28T10:23:23.078+05:30  INFO 13388 --- [RMI TCP Connection(2)-192.168.29.240] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-28T10:23:23.078+05:30  INFO 13388 --- [RMI TCP Connection(2)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-28T10:23:23.081+05:30  INFO 13388 --- [RMI TCP Connection(2)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-08-28T10:24:37.875+05:30  INFO 8148 --- [main] com.example.clint.ClientApplication      : Starting ClientApplication using Java 20.0.2 with PID 8148 (E:\Microservice config demo\client\target\classes started by Administrator in E:\Microservice config demo)
+2023-08-28T10:24:37.878+05:30  INFO 8148 --- [main] com.example.clint.ClientApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-08-28T10:24:37.946+05:30  INFO 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:24:37.947+05:30  INFO 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:24:37.947+05:30  WARN 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@76b74e9c uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:24:37.948+05:30  INFO 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:24:37.948+05:30  INFO 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:24:37.948+05:30  WARN 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@7adbd080 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:24:37.948+05:30  INFO 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:24:37.948+05:30  INFO 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:24:37.948+05:30  WARN 8148 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@41beb473 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:24:39.697+05:30  INFO 8148 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9f6e4a26-1282-396f-af33-9120b2ae75a0
+2023-08-28T10:24:40.054+05:30  INFO 8148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-28T10:24:40.065+05:30  INFO 8148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-28T10:24:40.065+05:30  INFO 8148 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-28T10:24:40.179+05:30  INFO 8148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-28T10:24:40.180+05:30  INFO 8148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2229 ms
+2023-08-28T10:24:41.190+05:30  INFO 8148 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-08-28T10:24:41.313+05:30  INFO 8148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-28T10:24:41.438+05:30  INFO 8148 --- [main] com.example.clint.ClientApplication      : Started ClientApplication in 5.261 seconds (process running for 6.387)
+2023-08-28T10:24:42.066+05:30  INFO 8148 --- [RMI TCP Connection(3)-192.168.29.240] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-28T10:24:42.068+05:30  INFO 8148 --- [RMI TCP Connection(3)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-28T10:24:42.071+05:30  INFO 8148 --- [RMI TCP Connection(3)-192.168.29.240] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-28T10:27:57.928+05:30  INFO 12648 --- [main] com.example.clint.ClientApplication      : Starting ClientApplication using Java 20.0.2 with PID 12648 (E:\Microservice config demo\client\target\classes started by Administrator in E:\Microservice config demo)
+2023-08-28T10:27:57.931+05:30  INFO 12648 --- [main] com.example.clint.ClientApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-08-28T10:27:58.002+05:30  INFO 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:27:58.002+05:30  INFO 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:27:58.003+05:30  WARN 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@8ab78bc uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:27:58.003+05:30  INFO 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:27:58.003+05:30  INFO 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:27:58.003+05:30  WARN 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@560513ce uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:27:58.003+05:30  INFO 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2023-08-28T10:27:58.003+05:30  INFO 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information. Will be trying the next url if available
+2023-08-28T10:27:58.003+05:30  WARN 12648 --- [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@13006998 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/microservice-one/default/master": Connection refused: no further information
+2023-08-28T10:27:59.483+05:30  INFO 12648 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9f6e4a26-1282-396f-af33-9120b2ae75a0
+2023-08-28T10:27:59.827+05:30  INFO 12648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-28T10:27:59.838+05:30  INFO 12648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-28T10:27:59.838+05:30  INFO 12648 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-28T10:28:00.080+05:30  INFO 12648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-28T10:28:00.085+05:30  INFO 12648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2078 ms
+2023-08-28T10:28:01.965+05:30  INFO 12648 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-08-28T10:28:02.260+05:30  INFO 12648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-28T10:28:02.463+05:30  WARN 12648 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.propertiesConfiguration': Injection of autowired dependencies failed
+2023-08-28T10:28:02.504+05:30  INFO 12648 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-28T10:28:02.574+05:30  INFO 12648 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-28T10:28:02.668+05:30 ERROR 12648 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.propertiesConfiguration': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:489) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:365) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375) ~[spring-cloud-context-4.0.4.jar:4.0.4]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179) ~[spring-cloud-context-4.0.4.jar:4.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:362) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.eagerlyInitialize(RefreshScope.java:126) ~[spring-cloud-context-4.0.4.jar:4.0.4]
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.start(RefreshScope.java:118) ~[spring-cloud-context-4.0.4.jar:4.0.4]
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:113) ~[spring-cloud-context-4.0.4.jar:4.0.4]
+	at org.springframework.cloud.context.scope.refresh.RefreshScope.onApplicationEvent(RefreshScope.java:68) ~[spring-cloud-context-4.0.4.jar:4.0.4]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:437) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:961) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:611) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.example.clint.ClientApplication.main(ClientApplication.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.profiles.active' in value "${spring.profiles.active}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:920) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:696) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:483) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 27 common frames omitted
+
